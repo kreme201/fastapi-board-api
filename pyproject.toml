@@ -8,11 +8,12 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.11"
 fastapi = "^0.112.2"
-fastapi-utils = "^0.7.0"
-dependency-injector = "^4.41.0"
 uvicorn = {extras = ["standard"], version = "^0.30.6"}
 sqlalchemy = "^2.0.33"
 alembic = "^1.13.2"
+contextvars = "^2.4"
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+bcrypt = "4.0.1"
 
 
 [build-system]

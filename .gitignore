@@ -46,6 +46,16 @@ coverage.xml
 
 # SQLite
 *.db
+*.sqlite
 
 # VSCode
 .vscode/
+
+# Env
+.env
+
+# Alembic Migration Versions
+database/migrations/versions/*
+
+# Git Keep
+!/**/.gitkeep
